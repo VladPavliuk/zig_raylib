@@ -103,7 +103,7 @@ pub fn main() !void {
     const windowSize: int2 = .{.x = 800, .y = 800};
 
     raylib.SetConfigFlags(windowConfigs);
-    raylib.InitWindow(windowSize.x, windowSize.y, "hello world!");
+    raylib.InitWindow(windowSize.x, windowSize.y, "My snake");
     raylib.SetTargetFPS(144);
     
     var tileSize: int2 = .{
